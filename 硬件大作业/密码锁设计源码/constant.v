@@ -1,0 +1,18 @@
+// 常量定义
+`define PASSWORD_LENGTH (6)
+`define INPUT_WIDTH (2)
+
+`define PASSWORD_BITS (`PASSWORD_LENGTH * 4)
+`define INPUT_BITS (`INPUT_WIDTH * 4)
+
+`define MESSAGE_CORRECT (24'hAAAAAA)
+`define MESSAGE_INCORRECT (24'hFFFFFF)
+
+`define CLOCKS_PER_SEC (1000)
+`define CLOCKS_PER_FLASH (128)
+
+`define STATE_TYPE reg [2:0]
+`define INDEX_TYPE reg [2:0]
+`define COUNTER_TYPE reg [11:0]
+`define INPUT_TYPE reg [`INPUT_BITS-1:0]
+`define PASSWORD_TYPE reg [`PASSWORD_BITS-1:0]
