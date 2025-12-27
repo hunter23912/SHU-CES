@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\Desktop\研讨四\研讨四\mystring.h(17,21): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  研讨四.vcxproj -> D:\Desktop\研讨四\x64\Debug\研讨四.exe
